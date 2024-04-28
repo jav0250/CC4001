@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Mobile
+comment0.text=\r\n\ Represents\ a\ mobile\ gadget,\ extending\ the\ Gadget\ class.\r\n
+comment1.params=model\ price\ weight\ length\ width\ depth\ callingCreditRemaining
+comment1.target=Mobile(java.lang.String,\ double,\ int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ to\ initialize\ a\ Mobile\ object\ with\ the\ specified\ parameters.\r\n\ @param\ model\ The\ model\ name\ of\ the\ mobile.\r\n\ @param\ price\ The\ price\ of\ the\ mobile.\r\n\ @param\ weight\ The\ weight\ of\ the\ mobile\ in\ grams.\r\n\ @param\ length\ The\ length\ of\ the\ mobile\ in\ millimeters.\r\n\ @param\ width\ The\ width\ of\ the\ mobile\ in\ millimeters.\r\n\ @param\ depth\ The\ depth\ of\ the\ mobile\ in\ millimeters.\r\n\ @param\ callingCreditRemaining\ The\ initial\ calling\ credit\ remaining\ for\ the\ mobile.\r\n
+comment2.params=
+comment2.target=int\ getCredit()
+comment2.text=\r\n\ Retrieves\ the\ remaining\ calling\ credit\ of\ the\ mobile.\r\n\ @return\ The\ remaining\ calling\ credit\ in\ minutes.\r\n
+comment3.params=minutes
+comment3.target=void\ makeCall(int)
+comment3.text=\r\n\ Initiates\ a\ call\ for\ a\ specified\ duration.\r\n\ @param\ minutes\ The\ duration\ of\ the\ call\ in\ minutes.\r\n
+comment4.params=minutes
+comment4.target=void\ addCredit(int)
+comment4.text=\r\n\ Adds\ calling\ credit\ to\ the\ mobile.\r\n\ @param\ minutes\ The\ amount\ of\ calling\ credit\ to\ add\ in\ minutes.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Returns\ a\ string\ representation\ of\ the\ Mobile\ object.\r\n\ @return\ A\ string\ containing\ the\ model,\ price,\ weight,\ dimensions,\ and\ calling\ credit\ information\ of\ the\ mobile.\r\n
+numComments=6

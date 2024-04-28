@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Gadget
+comment0.text=\r\n\ Represents\ a\ generic\ Gadget\ with\ common\ properties\ like\ model,\ price,\ and\ dimensions.\r\n
+comment1.params=model\ price\ weight\ length\ width\ depth
+comment1.target=Gadget(java.lang.String,\ double,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ to\ initialize\ a\ Gadget\ object\ with\ the\ specified\ parameters.\r\n\ @param\ model\ The\ model\ name\ of\ the\ gadget.\r\n\ @param\ price\ The\ price\ of\ the\ gadget.\r\n\ @param\ weight\ The\ weight\ of\ the\ gadget\ in\ grams.\r\n\ @param\ length\ The\ length\ of\ the\ gadget\ in\ millimeters.\r\n\ @param\ width\ The\ width\ of\ the\ gadget\ in\ millimeters.\r\n\ @param\ depth\ The\ depth\ of\ the\ gadget\ in\ millimeters.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getModel()
+comment2.text=\r\n\ Gets\ the\ model\ name\ of\ the\ gadget.\r\n\ @return\ The\ model\ name\ of\ the\ gadget.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Returns\ a\ string\ representation\ of\ the\ Gadget\ object.\r\n\ @return\ A\ string\ containing\ the\ model,\ price,\ weight,\ and\ dimensions\ of\ the\ gadget.\r\n
+numComments=4
